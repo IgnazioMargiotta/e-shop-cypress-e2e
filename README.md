@@ -14,11 +14,6 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 The page will reload if you make edits.\
 You will also see any lint errors in the console.
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
 ### `npm run build`
 
 Builds the app for production to the `build` folder.\
@@ -39,9 +34,24 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-## Learn More
+### `npm run e2e`
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Run e2e tests with Cypress
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-# photosi-test
+## Learn More about photosi-test
+
+Una semplice applicazione che non usa API ( ho utilizzato gli initial state di Redux per avere una base dati ). 
+Ho utilizzato Redux Persist per permettere i reload della pagina e la persistenza nel nostro local storage.
+
+Non ho creato componenti ma ho utilizzato @Mui come design system.
+
+Ho utilizzato React Hook Form per permettere la creazione e la modifica dei prodotti con i dati in preload quanto si tratta di modifica.
+
+Ho creato dei basici test e2e con Cypress per la pagina Home e la pagina prodotto.
+
+L'applicazione è molto basic come struttura.
+** Filtro basic, senza la possibilità di reset.
+
+Tempi di realizzazione:
+Ho realizzato il test principalmente in alcune ore del weekend, viste le tempistiche e poche altre ore per effettuare alcuni refactor.
+
