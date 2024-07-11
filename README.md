@@ -38,7 +38,7 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 
 Run e2e tests with Cypress
 
-## Learn More about photosi-test
+## Learn More about e-shop-cypress-e2e
 
 Una semplice applicazione che non usa API ( ho utilizzato gli initial state di Redux per avere una base dati ). 
 Ho utilizzato Redux Persist per permettere i reload della pagina e la persistenza nel nostro local storage.

@@ -6,7 +6,7 @@ import { persistReducer } from 'redux-persist';
 import { combineReducers } from '@reduxjs/toolkit';
 
 const persistConfig = {
-  key: 'test-photosi-app',
+  key: 'e-shop-cypress-e2e',
   version: 1,
   storage
 }

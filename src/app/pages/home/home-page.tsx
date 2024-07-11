@@ -70,7 +70,7 @@ export const HomePage = () => {
   return (
     <Container maxWidth="md">
       <Typography variant="h2" gutterBottom>
-        Title PhotoSì
+        E-shop-cypress-e2e
       </Typography>
       <StyledGrid container spacing={0.5}>
         <Grid item md={8} xs={12}>

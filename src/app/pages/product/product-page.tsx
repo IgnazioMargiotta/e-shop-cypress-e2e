@@ -39,7 +39,7 @@ export const ProductPage = () => {
   return memoProductSelected ? (
     <Container maxWidth="md">
       <Typography variant="h2" gutterBottom>
-        Test PhotoSì
+        E-shop-cypress-e2e
       </Typography>
       <Grid container spacing={2}>
         <Grid item md={6} xs={12}>

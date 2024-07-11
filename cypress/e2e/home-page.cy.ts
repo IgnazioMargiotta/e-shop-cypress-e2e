@@ -8,7 +8,7 @@ describe('empty spec', () => {
   })
   
   it('should check if the title and products exist', () => {
-    cy.findByText(/Title PhotoSì/i).should('exist')
+    cy.findByText(/E-shop-cypress-e2e/i).should('exist')
     cy.findAllByTestId('product-component').should('have.length', 3)
   });
   
